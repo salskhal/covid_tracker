@@ -18,10 +18,10 @@ const Nav = () => {
                 <a className="nav-link" href="/prevent">PREVENTIVE MEASURES</a>
             </li>   
             <li className="nav-item">
-            <a className="nav-link" href="#">WHAT IS COVID-19 </a>
+            <a className="nav-link" href="/what">WHAT IS COVID-19 </a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="/about">ABOUT</a>
+            <a className="nav-link" href="#">ABOUT</a>
             </li>
             </ul>
             </div>

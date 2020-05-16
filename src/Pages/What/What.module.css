@@ -1,0 +1,18 @@
+.container{
+    margin: 0% 6%;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+@media (max-width: 770px ) {
+    .container{
+        margin: 0 10%;
+    }
+
+}
+
+.content{
+    text-align: justify;
+}
