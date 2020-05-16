@@ -1,48 +1,26 @@
-import React from "react"
-import Cards from "./components/Card/Card"
-import CountryPicker from "./components/CountryPicker/CountryPicker"
-import Chart from "./components/Chart/Chart" 
+import React from "react" 
 import styles from "./App.module.css"
-import { fetchData } from "./api"
-import Info from "./info"
 import Footer from "./footre"
-import coronaImage from "./image/image.png"
+import {BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { Home, About, Prevent } from "./Pages"
+import Nav from "./components/Nav/Nav"
 
-
-class App extends React.Component{
-    state = { 
-        data: {},
-        country: "",
-    }
-    async componentDidMount() {
-        const fetchedData = await fetchData();
-
-        this.setState({ data: fetchedData})
-    }
-
-    handleCountryChange = async (country) => {
-
-        const fetchedData = await fetchData(country);
-
-        this.setState({ data: fetchedData, country: country})
-    }
-
-
-    render() {
-        const { data, country} = this.state
-        return(
-            <div>
-            <div className={styles.container}>
-                <Info />
-                <img className={styles.image} src={coronaImage} alt="COVID-19"/>
-                <Cards data={ data }/>
-                <CountryPicker handleCountryChange={this.handleCountryChange} />
-                <Chart data={data} country={country}/>
-            </div>
-            <Footer />
-            </div>
-        )
-    }
+const App = () =>{
+    return(
+        <Router>
+        <div>
+        <Nav />
+        <Switch>
+        <Route path="/" exact component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/prevent" component={Prevent}/> 
+        </Switch>
+        <Footer />
+        </div>
+        </Router>
+    )
 }
+
+
 
 export default App
