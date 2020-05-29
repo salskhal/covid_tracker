@@ -22,20 +22,28 @@ const What = () => {
             </div>
 
                 <h3 className="mt-5">Symptoms of COVID-19</h3><hr/>
-                <p>Symptoms can include fever, cough andshortness of breath. In more severe cases, infection can cause pneumonia or breathing difficulties. More rarely, the disease can be fatal.These symptoms are similar to the flu (influenza) or the common cold, which are a lot more common than COVID-19. This is why testing is required to confirm if someone has COVID-19. It’s important to remember that key prevention measures are the same – frequent hand washing, and respiratory hygiene (cover your cough or sneeze with a flexed elbow or tissue, then throw away the tissue into a closed bin). Also, there is a vaccine for the flu – so remember to keep yourself and your child up to date with vaccinations. </p>
+                <p>Symptoms can include fever, cough and shortness of breath. In more severe cases, infection can cause pneumonia or breathing difficulties. More rarely, the disease can be fatal.These symptoms are similar to the flu (influenza) or the common cold, which are a lot more common than COVID-19. This is why testing is required to confirm if someone has COVID-19. It’s important to remember that key prevention measures are the same – frequent hand washing, and respiratory hygiene (cover your cough or sneeze with a flexed elbow or tissue, then throw away the tissue into a closed bin). Also, there is a vaccine for the flu – so remember to keep yourself and your child up to date with vaccinations. </p>
 
                 <h3 className="mt-5">How does COVID-19 spread</h3><hr/>
                 <p>The virus is transmitted through direct contact with respiratory droplets of an infected person (generated through coughing and sneezing). Individuals can also be infected fromand touching surfaces contaminated with the virusand touching their face (e.g., eyes, nose, mouth). The COVID-19 virus may survive on surfaces for several hours, but simple disinfectants can kill it.</p>
 
                 <h3 className="mt-5">Who is more at risk?</h3><hr/>
-                <p>We arelearningmore about how COVID-19 affects peopleevery day.  Older people, and people with chronic medical conditions, such as diabetes and heart disease, appear to be more at risk of developing severe symptoms.  As this is a new virus, we are still learning abouthow it affects children. We know it is possible for people of any age to be infected with thevirus, but so far there arerelatively few cases of COVID-19 reported among children. This is a new virus and we need to learn more about how it affects children. The virus can be fatal in rare cases, so far mainly among older people with pre-existing medical conditions.</p>
+                <p>We are learning more about how COVID-19 affects people every day. Older people, and people with chronic medical conditions, such as diabetes and heart disease, appear to be more at risk of developing severe symptoms.  As this is a new virus, we are still learning about how it affects children. We know it is possible for people of any age to be infected with thevirus, but so far there are relatively few cases of COVID-19 reported among children. This is a new virus and we need to learn more about how it affects children. The virus can be fatal in rare cases, so far mainly among older people with pre-existing medical conditions.</p>
 
                 <h3 className="mt-5">What is the treatment for COVID-19</h3><hr/>
-                <p>There is nocurrently availablevaccineforCOVID-19. However, many of the symptoms can be treatedandgetting early care from a healthcare provider can make the disease less dangerous.There are several clinical trials that are being conducted to evaluate potential therapeutics for COVID-19.</p>
+                <p>There is currently no available vaccine for COVID-19. However, many of the symptoms can be treated and getting early care from a healthcare provider can make the disease less dangerous.There are several clinical trials that are being conducted to evaluate potential therapeutics for COVID-19.</p>
 
                 <h3 className="mt-5">How can the spread of COVID-19 be slowed down or prevented?</h3><hr/>
-                <p>As withother respiratory infectionslike the flu or the common cold, public health measuresare critical to slow the spread of illnesses. Public health measures are everyday preventive actionsthat include:</p>
-
+                <p>As with other respiratory infections like the flu or the common cold, public health measures are critical to slow the spread of illnesses. Public health measures are everyday preventive actionsthat include:
+                    <ul>
+                        <li>Staying home when sick</li>
+                        <li>Covering mouth and nose with flexed elbow or tissue when coughing or sneezing. Dispose of used tissue immediately</li>
+                        <li>Washing hands often with soapand water</li>
+                        <li>Cleaning frequently touched surfaces and objects.</li>
+                    </ul>
+                As we learn more about COVID-19 public health officials may recommend additional actions.
+                </p>
+                
             </div>
             </div>
         </div>

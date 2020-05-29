@@ -8,7 +8,7 @@ const Footer = () => {
         //     </div>
         // </footer>
         <div className="font card-footer text-muted text-center bg-light mt-5">
-        Made with <i className="fa fa-heart"></i> & <i className="fa fa-coffee"></i> on my couch
+        <i className="fa fa-code"></i> with <i className="fa fa-heart"></i>  from Nigeria
         </div>
     )
 }
